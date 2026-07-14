@@ -2,9 +2,12 @@ import os
 import json
 import pandas as pd
 import streamlit as st
+import time
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.metrics import accuracy_score, f1_score, confusion_matrix
+import sklearn
+
 
 OUTPUT_DIR = "outputs"
 RESULT_FILE = os.path.join(OUTPUT_DIR, "results_testkl.csv")
